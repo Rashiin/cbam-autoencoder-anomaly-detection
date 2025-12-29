@@ -1,0 +1,25 @@
+# datasets / generated data
+data/
+
+# model checkpoints
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# outputs
+results/
+visualizations/
+runs/
+logs/
+wandb/
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# macOS
+.DS_Store
