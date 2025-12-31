@@ -12,7 +12,7 @@ The focus of this project is on **practical anomaly detection**, interpretabilit
 and efficiency, making it suitable for research prototyping and real-world
 applications with limited computational resources.
 
----
+
 
 ## Key Features
 - One-class training using only normal samples  
@@ -21,21 +21,7 @@ applications with limited computational resources.
 - Pixel-level anomaly localization evaluated with IoU and Dice  
 - Lightweight architecture with CPU-friendly inference  
 
----
 
-## Repository Structure
-
-
-CBAM-AE-AnomalyDetection/
-│
-├── code/
-│ └── eval_cbam_ae_ood_and_localization.ipynb # Main evaluation notebook
-│
-├── README.md
-└── .gitignore
-
-
----
 
 ## Dataset and Models
 - CIFAR-10 is used as the benchmark dataset (normal class: airplane).
@@ -45,19 +31,19 @@ CBAM-AE-AnomalyDetection/
 The code can be easily adapted to other image anomaly detection benchmarks or
 custom datasets.
 
----
+
 
 ## Tasks
 - Image-level anomaly detection (OOD detection)
 - Pixel-level anomaly localization
 
----
+
 
 ## Evaluation Metrics
 - AUROC (image-level detection)
 - IoU and Dice score (localization)
 
----
+
 
 ## Requirements
 - Python 3.8+
@@ -66,7 +52,7 @@ custom datasets.
 - Matplotlib
 - scikit-learn
 
----
+
 
 ## Usage
 Open and run the main notebook:
@@ -81,7 +67,7 @@ The notebook handles:
 - Localization map generation
 - Visualization of results
 
----
+
 
 ## Notes
 This repository focuses on **evaluation, analysis, and interpretability**.
